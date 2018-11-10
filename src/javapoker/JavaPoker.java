@@ -34,7 +34,8 @@ public class JavaPoker {
         pane.setBackground(Color.gray);
         pane.setLayout(null);
         Deck deck = new Deck();
-        JLabel playercard1 = new JLabel(new ImageIcon(deck.getCard().getCardImage()));
+        Table table = new Table();
+        JLabel playercard1 = new JLabel(new ImageIcon(table.deck.getCard().getCardImage()));
         playercard1.setBounds(800, 850, 200, 300);
         JLabel playercard2 = new JLabel(new ImageIcon(deck.getCard().getCardImage()));
         playercard2.setBounds(925, 850, 200, 300);

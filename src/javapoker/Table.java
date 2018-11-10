@@ -12,11 +12,11 @@ public class Table {
 
 
 	public Table() throws IOException {
-		Deck deck = new Deck();
-		Player player = new Player(startingCHips, "Tom");
-		Bot botOne = new Bot(startingCHips, "Droid");
-		Bot botTwo = new Bot(startingCHips, "C3PO");;
-		Bot botThree = new Bot(startingCHips, "R2D2");;
+		deck = new Deck();
+		player = new Player(startingCHips, "Tom");
+		botOne = new Bot(startingCHips, "Droid");
+		botTwo = new Bot(startingCHips, "C3PO");;
+		botThree = new Bot(startingCHips, "R2D2");;
 	}
 
 	public void dealHands(){
