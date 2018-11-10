@@ -1,3 +1,5 @@
+package src.javapoker;
+
 public class Player {
 	int chips;
 	Cards hand[];

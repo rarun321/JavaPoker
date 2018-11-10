@@ -1,3 +1,4 @@
+package src.javapoker;
 import javax.imageio.ImageIO;
 import java.io.*;
 import java.util.ArrayList;
@@ -124,11 +125,11 @@ public class Deck {
 	public Cards getCard() {
 		Random rand = new Random();
 		int i;
-		i = rand.nextInt(52) + 1;
-		while (deckArray[i] == -1) {
-			i = rand.nextInt(52) + 1;
-		}
-		deckArray[i] = -1;
+		i = rand.nextInt(51) + 1;
+//		while (deckArray[i] == -1 ) {
+//			i = rand.nextInt(52) + 1;
+//		}
+//		deckArray[i] = -1;
 		return cardsArray.get(i);
 	}
 	public void shuffle (){

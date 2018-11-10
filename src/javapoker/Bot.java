@@ -1,3 +1,6 @@
+package src.javapoker;
+
+
 public class Bot {
 	int chips;
 	Cards hand[];

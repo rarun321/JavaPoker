@@ -1,3 +1,5 @@
+package src.javapoker;
+
 import java.io.IOException;
 
 public class Table {
