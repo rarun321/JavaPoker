@@ -1,12 +1,18 @@
-//package src.javapoker;
-//
-//public class Hand_Eval {
-//	Cards hand[];
-//
-//	public Hand_Eval(Cards card1, Cards card2, Cards card3, Cards card4, Cards card5, Cards card6, Cards card7){
-//		hand = new Cards[]{card1, card2, card3, card4, card5, card6, card7};
-//	}
+package src.javapoker;
+
+public class Hand_Eval {
+	Cards hand1[];
+	Cards hand2[];
+	Cards hand3[];
+	Cards hand4[];
+
+	public Hand_Eval(Cards[] handOne, Cards[] handTwo, Cards[] handThree, Cards[] handFour){
+		hand1 = handOne;
+		hand2 = handTwo;
+		hand3 = handThree;
+		hand4 = handFour;
+	}
 //	public evaluateHand(){
 //
 //	}
-//}
+}

@@ -10,11 +10,13 @@ import java.awt.image.BufferedImage;
 public class Cards {
     private BufferedImage cardImage;
     private int vals;
+    private String suit;
         
-     public Cards(int Value, BufferedImage card) {
+     public Cards(int Value, BufferedImage card, String Suit) {
       
         cardImage = card;
         vals= Value;
+        suit = Suit;
        
     }
      public BufferedImage getCardImage(){

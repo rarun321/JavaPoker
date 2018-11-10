@@ -1,6 +1,7 @@
 package src.javapoker;
 
 import java.io.IOException;
+import java.util.logging.Handler;
 
 public class Table {
 	Deck deck;
@@ -25,7 +26,8 @@ public class Table {
 		botTwo.setHand(deck.getCard(), deck.getCard());
 		botOne.setHand(deck.getCard(), deck.getCard());
 	}
-	public void shuffle(){
-		deck.shuffle();
+	public void shuffle(){deck.shuffle();}
+	public void checkHand(){
+		//Hand_Eval handeval = new Hand_Eval()
 	}
 }
